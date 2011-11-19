@@ -1,0 +1,195 @@
+
+.top_nav
+{
+	margin:0px;
+	padding: 0 5px 0 0;
+	height: 100px;
+	width: 100%;
+	background-color:#ffffff;
+	background-image: url(../images/top_nav_bg.png);
+	background-repeat:repeat-x;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+#companyname
+{
+	height:100px;
+	width:250px;
+	float:left;
+	background-image:url(../images/companyname.png);
+	background-repeat:no-repeat;
+}
+
+a:link {
+	text-decoration: none;
+	color: #800;
+}
+a:visited {
+	text-decoration: none;
+	color:  #900;
+}
+a:hover {
+	text-decoration: none;
+	color: gray;
+}
+a:active {
+	text-decoration: none;
+	color: #fff;
+}
+
+#fl_main
+{
+	width:900px;
+	background-color:#fff;
+}
+
+
+#img
+{
+	background-image:url(../images/index_img.png);
+	background-repeat:no-repeat;
+	width:900px;
+	height:75px;
+	border: 0px solid #fff;
+}
+#top_bar
+{
+	width:100%;
+	height:15px;
+	background-color:#ffffff;
+}
+
+#space
+{
+	width:100%;
+	height:20px;
+}
+#read
+{
+	width:100%;
+	height:20px;
+	text-align:right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #970000;
+
+}
+#side_head
+{
+	width:100%;
+	height:30px;
+	float:left;
+	text-align:left;
+	color: #970000;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#abt_content
+{
+	line-height: 20px;
+	width:100%;
+	background-color:#FFF;
+	color: #000000;
+	text-align: justify;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+}
+#technology_cont
+{       
+	line-height: 20px;
+	width:100%;
+	height:180px;
+	background-color:#FFF;
+	color: #000000;
+	text-align: justify;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+}
+#repository
+{       
+	line-height: 20px;
+	width:100%;
+	height:100px;
+	background-color:#FFF;
+	color: #000000;
+	text-align: justify;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #333;
+	font-weight: normal;
+}
+ul li
+{
+}
+ul li:hover
+{
+color:#fff;
+}
+
+
+
+
+/*           Footer             */
+#footer
+{
+	width:900px;
+}
+#footer_tab
+{
+        text-align:left;
+        padding:0px 20px 0px 0px;
+        margin:5px;
+        line-height: 20px;
+        float:left;
+        width:900px;
+        background-color:#FFF;
+        color: #000000;
+        text-align: justify;
+        font-family: Tahoma, Geneva, sans-serif;
+        font-size: 12px;
+        color: #333;
+        font-weight: normal;
+}
+ul #footer_menu
+{
+	position: center; 
+	margin: 0;
+	padding: 0 0 0 6px;
+	height: 15px;
+	background-color:white;
+	color: #424242;
+	color: black;
+}
+ul#footer_menu li
+{
+	float: left;
+	margin: 2;
+	padding: 10px 20px 0 0;
+	list-style-type: none;
+	text-transform: uppercase;
+	list-style-type: none;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color:black;
+	cursor:hand;  
+}
+#copyrg
+{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color:#000000;
+}
+
