@@ -1,46 +1,22 @@
-
-.top_nav
-{
-	margin:0px;
-	padding: 0 5px 0 0;
-	height: 100px;
-	width: 100%;
-	background-color:#ffffff;
-	background-image: url(../images/top_nav_bg.png);
-	background-repeat:repeat-x;
-}
-
-body {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-}
-#companyname
-{
-	height:100px;
-	width:250px;
-	float:left;
-	background-image:url(../images/companyname.png);
-	background-repeat:no-repeat;
-}
-
 a:link {
 	text-decoration: none;
-	color: #6E212E;
+color: #AE0000;
 }
 a:visited {
 	text-decoration: none;
-	color:  #6E212E;
+color: #AE0000;
 }
 a:hover {
+color: #AE0000;
 	text-decoration: none;
-	color: gray;
 }
 a:active {
+color: #AE0000;
 	text-decoration: none;
-	color: #fff;
 }
+
+
+
 
 
 #fl_main
@@ -130,18 +106,12 @@ a:active {
 	color: #333;
 	font-weight: normal;
 }
-ul li
-{
-}
-ul li:hover
-{
-color:#fff;
-}
 
 
 
 
-/*           Footer             */
+
+
 #footer
 {
 	width:900px;
@@ -162,30 +132,8 @@ color:#fff;
         color: #333;
         font-weight: normal;
 }
-ul #footer_menu
-{
-	position: center; 
-	margin: 0;
-	padding: 0 0 0 6px;
-	height: 15px;
-	background-color:white;
-	color: #424242;
-	color: black;
-}
-ul#footer_menu li
-{
-	float: left;
-	margin: 2;
-	padding: 10px 20px 0 0;
-	list-style-type: none;
-	text-transform: uppercase;
-	list-style-type: none;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 10px;
-	font-weight: normal;
-	color:black;
-	cursor:hand;  
-}
+
+
 #copyrg
 {
 	font-family: Verdana, Geneva, sans-serif;
