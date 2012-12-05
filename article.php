@@ -16,8 +16,8 @@
     $(function() {
 
     	$(".wrapper").find("ul.menu").lavaLamp();
-   	
-      
+
+
     });
     </script>
 </head>
@@ -115,7 +115,7 @@
 					<!-- end main section -->
 					<div class="footer_wrapper">
 						<!--<div class="cloud4">
-    
+
     </div>-->
 						<center>
 							<div class="footer">
@@ -142,16 +142,16 @@
 										All&nbsp;rights&nbsp;reserved.</div>
 									<ul class="share_exp">
 										<li><img src="./images/Ln2.png" alt="Linked In" />
-										
+
 										</li>
 										<li><img src="./images/Fb2.png" alt="Facebook" />
-										
+
 										</li>
 										<li><img src="./images/gpl2.png" alt="google +" />
-										
+
 										</li>
 										<li><img src="./images/twt2.png" alt="follow" />
-										
+
 										</li>
 									</ul>
 								</div>
