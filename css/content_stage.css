@@ -1,0 +1,503 @@
+/* CSS Document */
+/*common css*/
+body {
+	background-color: #ffffff;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat-x;
+	background-position: 0px 0px;
+	font: 12px ;
+	font-family: arial,Geneva,sans-serif;
+}
+
+li {
+	list-style: none;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font: 12px ;
+	font-family: arial,Geneva,sans-serif;
+}
+.header_wrapper_sub {
+	height: 100px;
+	width: 100%;
+	background-color:#883736;
+	/*background-image: url(../images/header-bg.jpg);*/
+background-image:url(../images/header-bg_lightblue2.jpg);
+	background-repeat: repeat-x;
+	background-position: 0px -180px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+.header_main_sub {
+	height: 100px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.career_gallery {
+	height: 201px;
+	width: 950px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 4px;
+	background-image: url(../images/gal3.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.team_gallery {
+	height: 201px;
+	width: 950px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 4px;
+	background-image: url(../images/team.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.service_gallery {
+	height: 201px;
+	width: 950px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 4px;
+	background-image: url(../images/service_gal.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.about_gallery {
+	height: 201px;
+	width: 950px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 4px;
+	background-image: url(../images/about.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.article_gallery {
+	height: 201px;
+	width: 950px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 4px;
+	background-image: url(../images/article.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.header_main {
+	padding-top: 5px;
+	height: 70px;
+	width: 1000px;
+	margin: 0 auto;
+}
+a {
+	/*color: #ffffff;*/
+text-decoration: none;
+}
+html, body {
+	color: #333333;
+	font-size: 14px;
+}
+
+.main p {
+	line-height: 1.5;
+}
+.repository {
+	line-height: 20px;
+	width: 920px;
+	height: 100px;
+	text-align: justify;
+	font-weight: normal;
+	margin: 3px 0px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.side_head {
+	width: 980px;
+	height: 30px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+		color: #327AB0;
+}
+.bullet {
+	padding: 0px 20px 0px 0px;
+	margin: 10px;
+	line-height: 20px;
+	width: 920px;
+	height: 220px;
+	background-color: #FFF;
+	color: #626262;
+	text-align: left;
+	font-size: 14px;
+	font-weight: normal;
+}
+.career_skills {
+	text-align: justify;
+	padding: 0px 20px 0px 0px;
+	margin: 10px;
+	line-height: 20px;
+	width: 100%;
+	height: 130px;
+	background-color: #FFF;
+	color: #626262;
+	text-align: justify;
+	font-size: 14px;
+	margin: 5px 0px;
+	padding: 3px;
+	font-weight: normal;
+}
+.career_small_para {
+	padding: 0px 20px 0px 0px;
+	line-height: 20px;
+	width: 930px;
+	height: 50px;
+	color: #333333;
+	text-align: justify;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 5px 0px;
+	padding: 3px;
+}
+
+
+.sw_ang, .sw_ang_2, .sw_ang_3, .apply {
+	line-height: 2;
+-moz-box-shadow: 0px 0px 5px #eee;
+-webkit-box-shadow: 0px 0px 4px #eee;
+
+box-shadow: 0px 0px 5px #eee;
+/* For IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+/* For IE 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+.side_head {
+
+
+	padding: 5px 10px;
+}
+.content_sub {
+	width: 900px;
+	height: auto;
+	/*border:1px solid gray;*/
+padding: 2px;
+	margin: 0 auto;
+}
+.content_sub p, .content_sub_left p {
+	line-height: 1.4;
+	color: #333333;
+	padding : 5px;
+	text-align: justify;
+	padding: 5px
+}
+.content_sub_right {
+	width: 150px;
+	float: right;
+}
+.content_sub_left {
+	width: 600px;
+	float: left;
+}
+/* end team style cret */
+.content_sub_left .conatctul {
+	list-style: none;
+}
+.content_sub_left .conatctul li {
+	width: 400px;
+	height: 25px;
+	padding: 5px;
+	margin: 2px;
+	line-height: 1.5;
+	padding-left: 50px;
+	text-align: left;
+}
+strong {
+	padding: 3px;
+	height: 20px
+}
+.tech {
+	margin-top: 10px;
+	margin-left: 35px;
+	margin-bottom: 10px;
+	/*width:700px;*/
+	float: left;
+height: relative;
+	list-style: none;
+}
+.tech li {
+	list-style-type: square; 
+	line-height: 1.5;
+	margin-left: 18px;
+	color: #333333;
+	clear: both;
+	padding: 2px;
+	text-align: left;
+	width: 700px;
+	text-align: justify;
+}
+.home_tech {
+	
+	margin-left: 15px;
+	/*width:700px;*/
+
+	list-style: none;
+}
+ul.home_tech li {
+	clear: both;
+	line-height: 1.5;
+	
+	color: #424242;
+
+	
+	padding: 2px;
+	text-align: justify;
+	width: 250px;	
+	color: #444444;
+	
+}
+.skill {
+	border-top: 1px dashed #f2f2f2;
+	width: 950px;
+	height: 250px;
+	padding: 3px 0px;
+	/*border:1px solid #f2f2f2;*/
+display: block
+}
+.skills_pos {
+	border-top: 1px dashed #f2f2f2;
+	width: 900px;
+	padding: 3px 0px;
+	height: 400px;
+	float: left;
+	/*border:1px solid #f2f2f2;*/
+display: block
+}
+.sw_ang {
+	width: 950px;
+	height: 160px;
+	border: 1px solid #f2f2f2;
+	display: block;
+	margin: 5px;
+}
+.sw_ang_2 {
+	width: 950px;
+	height: 460px;
+	border: 1px solid #f2f2f2;
+	display: block;
+	margin: 5px;
+}
+.sw_ang_3 {
+	width: 950px;
+	height: 480px;
+	border: 1px solid #f2f2f2;
+	display: block;
+	margin: 5px 5px 5px 18px;
+}
+.apply {
+	
+	width: 950px;
+	height: 100px;
+	border: 1px solid #f2f2f2;
+	display: block;
+margin: 5px 5px 5px 18px;
+}
+/*product pages */
+.prd
+{
+	width: 950px;
+	height: 500px;
+	}
+.prd_left
+{
+float:left; 
+width:600px; 
+height:400px;
+display: inline-block;
+	}
+.prd_right
+{
+float:right; 
+width:300px; 
+height:400px;
+display: inline-block;
+	}
+	.products1
+	{
+		width: 590px;
+		background-color: #ffffff;
+		border:1px solid #f3f3f3;
+		height: 360px;
+		margin-top:15px; 
+		}
+.products1 h3
+{
+	font-weight: normal;
+	float: left;
+	font-size: 22px;
+}
+.products1 .product_name
+{
+	padding:10px;
+	width: 500px;
+	}
+	.prd_opt
+	{
+		width: 130px; 
+		height: 200px; 
+		float: right;
+		margin-right: 10px; 
+		/*border:1px solid #ddd;*/
+		}
+.prd_opt li {
+	
+		padding: 10px 5px;
+		text-align: left;
+		line-height: 1;
+		border:1px solid #ffffff;
+		margin-top: 5px;
+		
+	
+	}
+	.prd_opt li:hover
+	{
+		background-color: #FAFAFA;
+		color:#529EFE;
+		}
+.prd_opt li.buy
+{
+ background-color:#529EFE;
+ color: #ffffff;
+ border:1px solid #fff;
+ font-size: 14px;
+ text-align: center;
+ width: 80px;
+ margin-top: 50px;
+ line-height: 1;
+ padding: 8px 20px;;
+ 
+}
+.prd_opt li.buy:hover{
+cursor: pointer;	
+	}
+.prd_img
+	{
+		width: 420px; 
+		height: 300px; 
+		float: left;
+		margin:5px;
+		border:1px solid #f2f2f2;
+		}
+		/**article page*/
+		
+.article_main_page
+{
+ width:950px; 
+ border:1px solid #f2f2f2; 
+ display:block;
+ background-color:#ffffff;
+}		
+.article_head 
+{
+text-align:left; 
+margin-bottom:15px;
+text-transform:capitalize;
+
+padding:5px;
+
+}
+.article_head tr 
+{
+
+float:left;
+display:block;
+padding:5px;
+}
+.article_view_content
+{
+width:880px;
+height:80px;
+
+float:left;
+}
+.article_view_hd{
+margin:0px;
+padding:0px;
+width:880px;
+height:auto;
+margin-bottom:10px;
+border-bottom:1px solid #ededed;
+
+float:left;
+}
+.article_head td h1
+{
+text-transform:capitalize;
+color:#3880B4;
+
+}
+.article_title
+{
+font-size:18px;
+line-height:1.5;
+text-transform:capitalize;
+color:#3880B4;
+}
+ .article_view_hd .date
+{
+font-size:14px;
+color:#333333;
+float:left;
+}
+.article_view_hd .date
+{
+width:200px; height:50px;
+
+}
+.article_view li
+{
+width:880px;
+height:150px;
+padding:8px 15px;
+background-color:#ffffff;
+border:1px solid #ededed;
+margin:5px;
+padding-top:10px ;
+display:block;
+
+}
+.article_more 
+{
+	width: 100px;
+	height: 30px;
+	padding: 3px 8px; 
+	border:1px solid #f2f2f2;
+	color: #950000;
+	text-align: center;
+	
+	color: #ffffff;
+	
+	background-color: #626262;
+	}
+.article_more:hover 
+{
+	background-color: #80C4EB;
+	color: #ffffff;
+}
+.article_content{
+			color:#333333;
+			font-size:14px;
+			text-align:justify;
+			width:900px;
+			padding:25px;
+			line-height:2;
+			border-top:1px solid #f2f2f2;
+			border-bottom:1px solid #f2f2f2;
+}
+h3{
+	color: #327AB0;
+    font-size: 14px;
+}		

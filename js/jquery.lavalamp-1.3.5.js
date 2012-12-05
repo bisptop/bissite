@@ -271,7 +271,7 @@ jQuery.fn.lavaLamp = function(o) {
 				'target': 'li',
 				'container': '',
 				'fx': 'swing',
-				'speed': 500, 
+				'speed': 350, 
 				'click': function(){return true}, 
 				'startItem': '',
 				'includeMargins': false,
@@ -358,21 +358,30 @@ jQuery.fn.lavaLamp = function(o) {
 			
 		// add mouseover event for every sub element
 		$lt.bind('mouseenter', function() {
+			
+			var store_id = $(this).attr("id");
+			$(".backLava").attr('id', store_id);
 			//console.log('mouseenter');
 			// help backLava behave if returnDelay is set
 			if(delayTimer) {clearTimeout(delayTimer);delayTimer=null;}
 			move($(this));
 		}).click(function(e) {
-			if (o.setOnClick) {
+			
+			
+		        					
+		        		
+			
+			if (o.setOnClick) { 
 				$selected.removeClass('selectedLava');
 				$selected = $(this).addClass('selectedLava');
 			}
 			return o.click.apply(this, [e, this]);
 		});
 		
+		
 		// creates and adds to the container a backLava element with absolute positioning
-		$back = $('<'+o.container+' class="backLava"><div class="leftLava"></div><div class="bottomLava"></div><div class="cornerLava"></div></'+o.container+'>').css({'position':'absolute','display':'block','margin':0,'padding':0}).prependTo(this);
-
+		//$back = $('<'+o.container+' class="backLava"><div class="leftLava"></div><div class="bottomLava"></div><div class="cornerLava"></div></'+o.container+'>').css({'position':'absolute','display':'block','margin':0,'padding':0}).prependTo(this);
+		$back = $('<'+o.container+ ' class="backLava" id="'+this.store_id+'"><div class="leftLava"></div><div class="bottomLava"></div><div class="cornerLava"></div></'+o.container+'>').css({'position':'absolute','display':'block','margin':0,'padding':0}).prependTo(this);
 		// setting css height and width actually sets the innerHeight and innerWidth, so
 		// compute border and padding differences on styled backLava element to fit them in also.
 		if (o.includeMargins) {
@@ -413,7 +422,7 @@ jQuery.fn.lavaLamp = function(o) {
 			return true;
 		});
 
-		function move($el) {
+		function move($el , $str_id ) {
 			if (!$el) $el = $selected;
 
 			if (!o.includeMargins) {

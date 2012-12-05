@@ -1,141 +1,195 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Bisptop</title>
-
-<meta name="description" content="Professional company specialized in the business analysis, architecture, development and maintenance of Web and cloud related business applications.">
-
-<meta name="keywords" content="custom software, application development, bisptop, business information, business analysis, problem analysis, mission critical applications, PHP ,java, scripting, web development, client server architectures, distributed computing, scalability, availability">
-
-<link href="style/bisweb.css" rel="stylesheet" type="text/css" />
-<link href="style/service.css" rel="stylesheet" type="text/css" />
-<link href="style/bisweb2.css" rel="stylesheet" type="text/css" />
-
-<!-- java scripts -->
- <script type="text/javascript" src="jquery.js"></script> 
-<script type="text/javascript" src="query.easing.1.3.js"></script>
-<script type="text/javascript" src="jquery.lavalamp-1.3.5.js"></script>
-
-<!-- end java -->
-
-<!-- marquee comments -->
- <script type="text/javascript">
-
-    $(function(){
-
-    $(".content").load("html/home.html"); 
-
-        $(".marq").hover(function(){
-
-        $(this).children('.comment').stop().css("top", "0px");}
-                         
-
-            , function(){
-
-            $(this).children('.comment').stop().animate({"top": '400px'}, 2500);});
-
-    
-
-    });
-
-    
-
-    </script>
-<!-- lava lamp -->
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Professional company specialized in the business analysis, architecture, development and maintenance of Web and cloud related business applications." />
+<!-- keyword -->
+<meta name="keywords"
+	content="bisptop, service, article, products, team, career, about, contact, cloud, business information, business analysis, problem analysis, mission critical applications, web development, client server architectures, distributed computing" />
+<title>Home | BISPTOP</title>
+<link href="./css/body.css" type="text/css" rel="stylesheet" />
+<link href="./css/content_stage.css" type="text/css" rel="stylesheet" />
+<link rel="icon" href="./images/logo.ico" type="image/x-icon" />
+<script type="text/javascript" src="./js/jquery.js"></script>
+<!-- lava lamp intgration -->
+<script type="text/javascript" src="./js/jquery.lavalamp-1.3.5.js"></script>
 <script type="text/javascript">
-    $(function() {
-        $("ul.menu").lavaLamp();
-   	});
+	$(function() {
+
+		$(".wrapper").find("ul.menu").lavaLamp();
+	});
 </script>
-<!-- end lavalamp -->
-
-
-<script type="text/javascript">
-
-$(document).ready(function() { 
-
-$("#contact").click(function(){
-    
-$(".content").load("html/contact.html"); 
-
-});
-$("#about").click(function(){
-   
-$(".content").load("html/home.html"); 
-
-});
-$("#career").click(function(){
-    
-$(".content").load("html/career.html"); 
-
-});
-$("#team").click(function(){
-    
-$(".content").load("html/team.html"); 
-
-});
-$("#article").click(function(){
-    
-$(".content").load("html/article.html"); 
-
-});
-$("#service").click(function(){
-    
-$(".content").load("html/service.html"); 
-
-});
-});
-</script>
-
 </head>
-
 <body>
-<div id="wrapper">
+	<div class="wrapper" id="wrapper">
+		<div class="twt_follow"></div>
+		<!--<a name="home" id="home"></a>-->
+		<div class="header_wrapper">
+			<div class="header_main">
+				<div class="header_left">
+					<div class="head"><span style="color:#626262;">BIS</span><span
+						style="color:#2B99F2">PTOP</span> </div> <span class="headSub">SOFTWARES
+					</span>
+				</div>
+				<div class="header_right">
+					<ul class="menu">
+						<li id="home"><a href="index" class="active">HOME</a></li>
+						<li id="article"><a href="article">ARTICLE</a></li>
+						<li id="products"><a href="products">PRODUCTS</a></li>
+						<li id="service"><a href="service">SERVICES</a></li>
+						<li id="team"><a href="team">TEAM</a></li>
+						<li id="career"><a href="career">CAREER</a></li>
+						<li id="contact"><a href="contact">CONTACT&nbsp;US</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="index_gallery"></div>
+			<div class="cloud">
+				<div class="cloud2"></div>
+			</div>
+		</div>
+		<!-- MAIN CONTENT START HERE  || END HEADER MAIN DIV w100%-->
+		<div class="main">
+			<ul class="homecontent">
+				<li><img src="./images/service/cloud_comp.jpg"
+					style="float: left; padding-right: 10px; width: 55px"
+					alt="cloud_computing" height="55px" width="55px" />
+					<h2 style="line-height: 3;">Who&nbsp;We&nbsp;Are</h2>
+					<div class="home_para">
+						<p>We are a young and vibrant Cloud Research and development
+							company. We provide Development and support to medium
+							enterprises, startups and government institutions, Successful
+							organizations have started to use cloud technologies as a
+							catalyst to put in place new system and processes to accomodate
+							the maximized operational need and business result. The Increased
+							dependency of business to cloud computing has opened more
+							business in Web domain. Bisptop refers to Business Information
+							system people to people. We support these institution in their
+							development needs and cloud and e-commerce platform bring up</p>
+					</div> <a id="about_more" href="about">read&nbsp;more</a>
+					<div style="border-bottom: 1px solid #f2f2f2; margin-top: 10px"></div>
+				</li>
 
-		<div id="top_nav">
-<div id="lnav"></div>
-<div id="rnav">
-<ul class="menu">
-<li id="about"><a href="#about&nbsp;bisptop"  id="about">ABOUT&nbsp;BISPTOP</a></li>
-<li id="article"><a href="#article"  id="article">ARTICLE&nbsp;OF&nbsp;INTEREST</a></li>
-<li id="career"><a href="#career"  id="career">CAREER</a></li>
-<li id="team"><a href="#team"  id="team">TEAM</a></li>
-<li id="service"><a href="#service"  id="service">SERVICES</a></li>
-<li id="contact"><a href="#contact"  id="contact">CONTACT&nbsp;US</a></li>
-</ul></div>
-</div>
-			
-<center>
-<div id="container">
-<center>
-<div class="marq" style="width:900px; height:200px; background-image:url(images/mar_bg.png);">
-<marquee SCROLLAMOUNT=5>
 
-<img src="images/mar_bg2.png" style="width:100%; height:200px;">
-</marquee>
-<span class="comment" style="width:900px; height:200px;">
+				<li><img src="./images/technology_Home_.jpg"
+					style="float: left; padding-right: 10px; width: 55px"
+					alt="technology" height="55px" width="55px" />
+					<h2 style="line-height: 3;">Technology&nbsp;We&nbsp;Use</h2>
+					<div class="home_para">
+						<p>
+							<b>W</b>e concentrate on providing the design and development
+							services required to create modern cloud and Normal web apps.Core
+							tecnologies we are expert in <br /></p>
+								<ul class="home_tech">
+									<li><b>PHP</b>&nbsp;:&nbsp;PHP is a widely-used
+										general-purpose server side scripting language,That is
+										especially suited for Web development and can be embedded into
+										HTML.</li>
+									<li><b>SQL</b>&nbsp;:&nbsp;SQL will be used as language
+										for accessing databases in product.</li>
+									<li><b>AJAX</b>&nbsp;:&nbsp;AJAX is a group of client side
+										web development methods used to create asynchronous web
+										applications.<br />
+									</li>
+									<li><b>HTML</b>&nbsp;:&nbsp;HTML created in 1980.The
+										markup standard is now advancing to HTML5</li>
+								</ul>
+						
+					</div> <a class="more" href="service">read&nbsp;more</a>
+					<div style="border-bottom: 1px solid #f2f2f2; margin-top: 10px"></div>
+				</li>
+				<li><img src="./images/buz_ans.jpg"
+					style="float: left; padding-right: 10px; width: 55px"
+					alt="business_analysis" height="55px" width="55px"/>
+					<h2 style="line-height: 3;">What&nbsp;We&nbsp;Offer</h2>
+					<div class="home_para">
+							<!--<b>T</b>he inital phase will be understanding and writing down your business plan.
+          We make plans based on the insight you give.-->
+							<div class="v_offer" style="height: 100px;">
+								<ul class="v_offer_points">
+									<li>General and Ongoing Support</li>
+									<li>Implementation support (installation and testing)</li>
+									<li>Management of multilingual &amp; translation requirements</li>
+									<li>Management of website design</li>
+									<li>Management of e-commerce solution</li>
+									<li>Comprehensive planning &amp; execution</li>
+								</ul>
+							</div>
+					</div> <a class="more" href="service">read&nbsp;more</a>
+					<div style="border-bottom: 1px solid #f2f2f2; margin-top: 10px"></div>
+				</li>
 
-Cloud and Ecommerce...<br>
- 
-</span>
+				<li></li>
+				<li style="width: 950px; height: 200px; padding-top: 15px;">
+					<h2 style="line-height: 1;">Our&nbsp;Services&nbsp;</h2>
 
-</div>
-</center>
-	
 
-<!-- content -->
-<div class="content">
 
-</div>	
-
+					<p>Our dedicated team members engage exclusively in PHP and
+						JAVA with MVC software projects to stay on the competitive
+						development edge in this area. Our team's developmental experience
+						translates to substantial cost savings for our customers. Our
+						project co-coordinators understand how technology strategy,
+						software architecture, design/ usability, and the development
+						process impact one another. That is why we provide high quality
+						time sensitive software solutions for all budgets, using the
+						latest Open Source products and technologies. The Team ensures
+						effective project control and reduces risks by providing accurate
+						project cost estimates, using process metrics and adopting rigid
+						QA practices. Competent developers take up the challenge to
+						deliver on time highly complicated projects. They have
+						consistently delivered unique solutions, based on emerging
+						technologies and products. The dedicated teams, with exceptional
+						problem-solving skills, use innovative approaches to tackle all
+						kinds of business challenges.</p></li>
+			</ul>
+		</div>
+		<!-- footer section || end main sections !-->
+		<div class="footer_wrapper">
+			<!--<div class="cloud4">
+    
+    </div>-->
+			<div class="footer">
+				<div class="footer_left">
+					<ul>
+						<li><a href="index">HOME</a></li>
+						<li><a href="article">ARTICLE</a></li>
+						<li><a href="products">PRODUCTS</a></li>
+						<li><a href="service">SERVICES</a></li>
+						<li><a href="team">TEAM</a></li>
+						<li><a href="career">CAREER</a></li>
+					</ul>
+				</div>
+				<div class="footer_right">
+					<div class="copyrg">
+						Copyright&nbsp;&#169;&nbsp;2012&nbsp;bisptop&nbsp;Softwares&nbsp;Pvt.&nbsp;Ltd.&nbsp;
+						All&nbsp;rights&nbsp;reserved.</div>
+					<ul class="share_exp">
+						<li><img src="./images/Ln2.png" alt="Linked In" />
+						</li>
+						<li><img src="./images/Fb2.png" alt="Facebook" />
+						</li>
+						<li><img src="./images/gpl2.png" alt="google +" />
+						</li>
+						<li><img src="./images/twt2.png" alt="follow" />
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
+<script type="text/javascript">
 
-</CENTER>
-</div>
-	
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36680486-1']);
+  _gaq.push(['_trackPageview']);
 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>	
 </body>
 </html>
