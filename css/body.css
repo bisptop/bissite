@@ -55,7 +55,7 @@ ul.homecontent li p {
 	padding-bottom: 20px;
 	margin-bottom: 30px;
 }
-ul.homecontent li h2, ul.homecontent li h3 {
+ul.homecontent li h1,ul.homecontent li h2, ul.homecontent li h3 {
 	color: #3880B4;
 	font-size: 20px;
 	font-weight: normal;
