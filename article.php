@@ -3,7 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!-- keyword -->
-<meta name="keywords" content="article, articles, bisptop articles" />
+<meta name="description" content="Blog from Bisptop software" />
+<meta name="keywords" content="article, articles, bisptop articles,SOAP , Node.js ,PHP" />
 	<title>Article | BISPTOP</title>
 	<link href="./css/body.css" type="text/css" rel="stylesheet" />
 	<link href="./css/content_stage.css" type="text/css" rel="stylesheet" />
@@ -30,13 +31,14 @@
 			<?php
 			/* Short and sweet */
 			define('WP_USE_THEMES', false);
-			require('./blog/wp-blog-header.php');
+			//require('./blog/wp-blog-header.php');
+			  require($_SERVER['DOCUMENT_ROOT'].'/blog/wp-blog-head.php');
 
 
 			?>
 
 				<div class="header_wrapper_sub">
-					<center>
+				
 						<div class="header_main_sub">
 							<div class="header_left">
 								<div class="head"><span style="color:#626262;">BIS</span><span
@@ -62,10 +64,10 @@
 								</ul>
 							</div>
 						</div>
-					</center>
+			
 				</div>
 				<div class="wrapper_sub">
-					<center>
+				
 						<!-- <div class="article_gallery">
   </div> -->
 
@@ -111,13 +113,13 @@
 							<!-- end  article -->
 
 						</div>
-					</center>
+				
 					<!-- end main section -->
 					<div class="footer_wrapper">
 						<!--<div class="cloud4">
-
+    
     </div>-->
-						<center>
+						
 							<div class="footer">
 								<div class="footer_left">
 									<ul>
@@ -141,22 +143,22 @@
 										Copyright&nbsp;&#169;&nbsp;2012&nbsp;bisptop&nbsp;Softwares&nbsp;Pvt.&nbsp;Ltd.&nbsp;
 										All&nbsp;rights&nbsp;reserved.</div>
 									<ul class="share_exp">
-										<li><img src="./images/Ln2.png" alt="Linked In" />
-
+										<li><img src="./images/Ln2.png" width="41px" height="41px" alt="Linked In" />
+										
 										</li>
-										<li><img src="./images/Fb2.png" alt="Facebook" />
-
+										<li><img src="./images/Fb2.png" width="41px" height="41px" alt="Facebook" />
+										
 										</li>
-										<li><img src="./images/gpl2.png" alt="google +" />
-
+										<li><img src="./images/gpl2.png" width="41px" height="41px" alt="google +" />
+										
 										</li>
-										<li><img src="./images/twt2.png" alt="follow" />
-
+										<li><img src="./images/twt2.png" width="41px" height="41px" alt="follow" />
+										
 										</li>
 									</ul>
 								</div>
 							</div>
-						</center>
+				
 					</div>
 				</div>
 			</div>
